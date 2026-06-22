@@ -1,0 +1,62 @@
+[
+  {
+    "id": "task_1782144806990_nyht443sp",
+    "name": "Hackathon PPT",
+    "description": "",
+    "createdAt": "2026-06-22T16:13:26.990Z",
+    "deadline": "2026-06-23T16:13:00.000Z",
+    "estimatedEffort": 5,
+    "spentEffort": 0,
+    "status": "pending",
+    "completedAt": null,
+    "aiAnalysis": {
+      "analyzedAt": "2026-06-22T16:13:38.413Z",
+      "summary": "A Hackathon PPT requires 5 hours of focused effort, which is highly achievable within the 24-hour deadline by structuring content creation and design across two distinct phases.",
+      "estimatedHours": 5,
+      "complexityScore": 6,
+      "category": "Career",
+      "priorityScore": 90,
+      "priorityLevel": "Critical",
+      "riskLevel": "Low",
+      "riskReasoning": "With 5 hours of work required and 24 hours available until the deadline, there is a substantial buffer, making completion highly probable even with standard daily commitments.",
+      "completionProbability": 90,
+      "dayWisePlan": [
+        {
+          "day": "Day 1 (Plan & Initial Draft)",
+          "tasks": [
+            "Define the core problem, solution, and value proposition of your hackathon project.",
+            "Create a detailed slide outline (e.g., Problem, Solution, Demo, Team, Future Work).",
+            "Gather all necessary screenshots, data points, and key visuals.",
+            "Draft initial content for the first 3-4 critical slides (Problem, Solution overview)."
+          ],
+          "estimatedDuration": "2.5 hours",
+          "milestone": "Presentation outline and core content drafted."
+        },
+        {
+          "day": "Day of Deadline (Refine & Rehearse)",
+          "tasks": [
+            "Complete remaining slide content, focusing on conciseness and impact.",
+            "Design slides for visual appeal, ensuring consistency and readability.",
+            "Integrate any live demo elements or video clips.",
+            "Practice the full presentation aloud at least twice to refine timing and delivery.",
+            "Perform a final review for typos, consistency, and flow."
+          ],
+          "estimatedDuration": "2.5 hours",
+          "milestone": "Final presentation ready and rehearsed."
+        }
+      ],
+      "milestones": [
+        "Presentation Outline & Core Content Drafted",
+        "Visual Design & Demo Integration Complete",
+        "Final Presentation Rehearsed and Ready"
+      ],
+      "nextRecommendedAction": "Immediately begin by defining the core message and structuring the presentation outline.",
+      "productivitySuggestions": [
+        "Utilize a timer (e.g., Pomodoro technique) to maintain focused work blocks during content creation and design.",
+        "Prioritize clarity and impact over excessive detail; hackathon presentations demand brevity and a strong narrative.",
+        "Practice your presentation aloud multiple times to ensure smooth transitions and adherence to time limits."
+      ]
+    },
+    "rescuePlan": null
+  }
+]

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+/* Dynamic Themes */
+.theme-cyber {
+  --bg-app: #080d16;
+  --bg-header: #0e1625;
+  --bg-card: #121c2f;
+  --bg-alt: #16243a;
+  --border-main: #1f3556;
+  --border-sub: #16243a;
+  --text-main: #f1f5f9;
+  --text-sub: #94a3b8;
+  --text-title: #ffffff;
+  --primary-color: #8b5cf6;
+  --primary-hover: #7c3aed;
+  --primary-glow: rgba(139, 92, 246, 0.25);
+  --badge-bg: #1f3556;
+  --badge-text: #c084fc;
+}
+
+/* Base style hooks applying the design dynamic variables */
+.theme-app-bg {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.theme-header {
+  background-color: var(--bg-header);
+  border-color: var(--border-main);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.theme-card {
+  background-color: var(--bg-card);
+  border-color: var(--border-main);
+  color: var(--text-main);
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+.theme-alt-bg {
+  background-color: var(--bg-alt);
+  border-color: var(--border-sub);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.theme-border {
+  border-color: var(--border-main);
+  transition: border-color 0.25s ease;
+}
+
+.theme-text-main {
+  color: var(--text-main);
+}
+
+.theme-text-title {
+  color: var(--text-title);
+}
+
+.theme-text-sub {
+  color: var(--text-sub);
+}
+
+.theme-primary-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.theme-primary-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.theme-primary-text {
+  color: var(--primary-color);
+}
+
+.theme-badge {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+  border-color: var(--border-main);
+}
+
+/* Animations and helpers */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(147, 51, 234, 0.4);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(147, 51, 234, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(147, 51, 234, 0);
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s infinite;
+}
+
+/* Modern styling touches */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+}
+
+.danger-gradient-bg {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Last Minute Life Saver",
+  "description": "An AI-powered productivity companion that helps you meet deadlines through task analysis, risk prediction, and automated rescue mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
