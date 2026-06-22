@@ -4,7 +4,7 @@
 
 Deadline Guardian is an intelligent AI productivity assistant that helps users avoid missed deadlines by analyzing tasks, predicting risks, generating execution plans, and providing emergency recovery strategies using Google's Gemini AI.
 
-🌐 **Live Demo:** https://deadline-guardian-67sv.onrender.com/
+🌐 **Live Demo:** [https://deadline-guardian-67sv.onrender.com/](https://deadline-guardian-67sv.onrender.com)
 
 📂 **GitHub Repository:** https://github.com/Sai-Sri-Krishna/Deadline_Guardian
 
